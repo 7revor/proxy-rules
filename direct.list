@@ -4,3 +4,5 @@ DOMAIN-SUFFIX,ultramobile.com
 DOMAIN,cdn.misakaf.org
 # 7revor
 DOMAIN-SUFFIX,7revor.com
+# SSH
+DST-PORT,22
