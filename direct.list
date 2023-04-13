@@ -4,3 +4,6 @@ DOMAIN-SUFFIX,ultramobile.com
 DOMAIN,cdn.misakaf.org
 # 7revor
 DOMAIN-SUFFIX,7revor.com
+# Amazon AWS
+DOMAIN-SUFFIX,aws.amazon.com
+DOMAIN-SUFFIX,amazonaws.com
