@@ -1,5 +1,7 @@
 # misakaf
 DOMAIN,cf3.misakaf.org
+# peach
+DOMAIN-SUFFIX,embymv.tk
 # ednovas
 DOMAIN,emby.ednovas.org
 # infinity
@@ -8,13 +10,14 @@ DOMAIN,infinityfly.top
 IP-CIDR,202.61.255.248/24
 # 花云
 DOMAIN,emby.flowercloud.yt
+# acemby
+DOMAIN-SUFFIX,play.acemby.org
+
+# misty +
+DOMAIN-SUFFIX,misty.ltd
 # jable
 DOMAIN,jable.tv
 # eporner
 DOMAIN,eporner.com
 # missav
 DOMAIN,missav.com
-# misty +
-DOMAIN-SUFFIX,misty.ltd
-# peach
-DOMAIN-SUFFIX,embymv.tk
