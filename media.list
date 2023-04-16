@@ -12,6 +12,9 @@ IP-CIDR,202.61.255.248/24
 DOMAIN,emby.flowercloud.yt
 # acemby
 DOMAIN-SUFFIX,play.acemby.org
+# 水母挂梯
+DOMAIN-SUFFIX,vip1.jellyfin.asia
+
 
 # misty +
 DOMAIN-SUFFIX,misty.ltd
