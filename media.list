@@ -2,7 +2,7 @@
 DOMAIN,cf3.misakaf.org
 # peach
 DOMAIN-SUFFIX,embymv.tk
-# ednovas
+# emby hub
 DOMAIN,emby.ednovas.org
 # infinity
 DOMAIN,infinityfly.top
@@ -14,6 +14,9 @@ DOMAIN,emby.flowercloud.yt
 DOMAIN-SUFFIX,play.acemby.org
 # 水母挂梯
 DOMAIN-SUFFIX,vip1.jellyfin.asia
+# polo
+DOMAIN-SUFFIX,poloemby.xyz
+
 
 
 # misty +
