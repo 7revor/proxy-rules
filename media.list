@@ -7,7 +7,7 @@ DOMAIN,emby.ednovas.org
 # infinity
 DOMAIN,infinityfly.top
 # Mulgore
-IP-CIDR,202.61.255.248/24
+IP-CIDR,202.61.255.248/32
 # 花云
 DOMAIN,emby.flowercloud.yt
 # acemby
