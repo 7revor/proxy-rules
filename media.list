@@ -1,5 +1,5 @@
 # misakaf
-DOMAIN,cf3.misakaf.org
+DOMAIN-SUFFIX,misakaf.org
 # peach
 DOMAIN-SUFFIX,embymv.tk
 # emby hub
@@ -12,16 +12,19 @@ IP-CIDR,202.61.255.248/24
 DOMAIN,emby.flowercloud.yt
 # acemby
 DOMAIN-SUFFIX,play.acemby.org
+# 水母
+DOMAIN-SUFFIX,amazing910.top
 # 水母挂梯
 DOMAIN-SUFFIX,vip1.jellyfin.asia
 # polo
 DOMAIN-SUFFIX,poloemby.xyz
 # tag 新风味
 DOMAIN,tagemby.embylianmeng.com
-
-
-# misty +
+# misty
 DOMAIN-SUFFIX,misty.ltd
+# 剧狗
+DOMAIN-SUFFIX,ju.dog
+
 # jable
 DOMAIN,jable.tv
 # eporner
