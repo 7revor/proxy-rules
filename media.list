@@ -1,33 +1,51 @@
 # misakaf
 DOMAIN-SUFFIX,misakaf.org
+
 # peach
 DOMAIN-SUFFIX,embymv.tk
-# emby hub
-DOMAIN,emby.ednovas.org
-# infinity
-DOMAIN,infinityfly.top
-# Mulgore
-IP-CIDR,202.61.255.248/32
-# 花云
-DOMAIN,emby.flowercloud.yt
-# acemby
-DOMAIN-SUFFIX,play.acemby.org
-# 水母
-DOMAIN-SUFFIX,amazing910.top
-# 水母挂梯
-DOMAIN-SUFFIX,vip1.jellyfin.asia
+
 # polo
 DOMAIN-SUFFIX,poloemby.xyz
-# tag 新风味
-DOMAIN,tagemby.embylianmeng.com
+
+# emby hub
+DOMAIN-SUFFIX,ednovas.org
+
 # misty
 DOMAIN-SUFFIX,misty.ltd
+
+# 水母
+DOMAIN-SUFFIX,amazing910.top
+DOMAIN-SUFFIX,jellyfin.asia
+
 # 剧狗
 DOMAIN-SUFFIX,ju.dog
 
+# magic cloud
+DOMAIN-SUFFIX,freetz.top
+
+# Mulgore
+IP-CIDR,202.61.255.248/32
+
+# infinity
+DOMAIN-SUFFIX,infinityfly.top
+
+# acemby
+DOMAIN-SUFFIX,acemby.org
+
+# 纸片人
+DOMAIN-SUFFIX,embyplus.org
+
+# 花云 普拉斯
+DOMAIN-SUFFIX,flowercloud.yt
+
+# tag 新风味
+DOMAIN-SUFFIX,embylianmeng.com
+
+
+
 # jable
-DOMAIN,jable.tv
+DOMAIN-SUFFIX,jable.tv
 # eporner
-DOMAIN,eporner.com
+DOMAIN-SUFFIX,eporner.com
 # missav
-DOMAIN,missav.com
+DOMAIN-SUFFIX,missav.com
