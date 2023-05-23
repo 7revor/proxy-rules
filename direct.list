@@ -2,3 +2,5 @@
 DOMAIN-SUFFIX,ultramobile.com
 # SSH
 DST-PORT,22
+# ddns
+DOMAIN,ipv4.ddnspod.com
