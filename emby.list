@@ -48,6 +48,9 @@ DOMAIN-SUFFIX,wiri.tk
 #TreeDiagram
 DOMAIN-SUFFIX,123456.al
 
+#liangshan
+DOMAIN-SUFFIX,shuipo.lol
+
 # Mulgore
 IP-CIDR,202.61.255.248/32
 
