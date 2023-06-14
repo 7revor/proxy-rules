@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,embytv.cf
 # 卷毛鼠
 DOMAIN-SUFFIX,jmsooo.com
 
-#bgk
+# bgk
 DOMAIN-SUFFIX,emby.pro
 DOMAIN-SUFFIX,bgka.me
 
@@ -20,6 +20,9 @@ DOMAIN-SUFFIX,emby.wtf
 
 # polo
 DOMAIN-SUFFIX,poloemby.xyz
+
+# 垃圾影音
+DOMAIN-SUFFIX,emby.ml
 
 # emby hub
 DOMAIN-SUFFIX,ednovas.org
@@ -81,7 +84,6 @@ DOMAIN-SUFFIX,goodisp.org
 
 # tank
 DOMAIN-SUFFIX,tank88.top
-
 
 # 花云 普拉斯
 DOMAIN-SUFFIX,flowercloud.yt
