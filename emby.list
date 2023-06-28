@@ -59,7 +59,7 @@ DOMAIN-SUFFIX,123456.al
 DOMAIN-SUFFIX,shuipo.lol
 
 # Mulgore
-IP-CIDR,202.61.255.248/32
+IP-CIDR,202.61.255.248/32,no-resolve
 
 # infinity
 DOMAIN-SUFFIX,infinityfly.top
