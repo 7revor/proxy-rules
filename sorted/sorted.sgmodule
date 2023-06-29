@@ -1,4 +1,4 @@
-#!name= Sorted Unlock
+#!name= Sorted 解锁
 
 [Script]
 sorted.unlock = type=http-response,pattern=^https:\/\/api\.sortedapp\.com\/receipts\/verify,requires-body=1,binary-body-mode=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js
