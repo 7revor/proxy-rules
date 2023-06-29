@@ -1,7 +1,8 @@
-#!name= Bilibili Vip
+#!name= Bilibili HD
+#!desc= 解锁 Bilibili 高画质
 
 [Script]
-bilibili.vip = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,requires-body=1,binary-body-mode=0,script-path=https://raw.githubusercontent.com/7revor/proxy-rules/main/bilibili/bilibili.js
+bilibili.hd = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,requires-body=1,binary-body-mode=0,script-path=https://raw.githubusercontent.com/7revor/proxy-rules/main/bilibili/bilibili.js
 
 [MITM]
 hostname = %APPEND% app.bilibili.com
