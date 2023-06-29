@@ -1,0 +1,7 @@
+#!name= Keep Unlock
+
+[Script]
+Keep.unlock = type=http-response,pattern=^http[s]?:\/\/.+keep.+(athena/v7/people/my|/ad/preload|details|preview|/start|liveStream/schedule|course/v3/plans|/home/prime/page).*$,requires-body=1,binary-body-mode=0,script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/keep.js
+
+[MITM]
+hostname = %APPEND% *keep*
