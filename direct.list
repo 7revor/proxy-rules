@@ -3,3 +3,6 @@ DOMAIN-SUFFIX,ultramobile.com
 
 # ddns
 DOMAIN,ipv4.ddnspod.com
+
+# vps
+DOMAIN,us.7revor.org
