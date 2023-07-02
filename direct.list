@@ -4,5 +4,5 @@ DOMAIN-SUFFIX,ultramobile.com
 # ddns
 DOMAIN,ipv4.ddnspod.com
 
-# vps
-DOMAIN,us.7revor.org
+# cloud
+DOMAIN-SUFFIX,7revor.org
