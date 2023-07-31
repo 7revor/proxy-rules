@@ -1,14 +1,14 @@
+# misakaf
+DOMAIN,emby.misakaf.org
+
 # peach
 DOMAIN-SUFFIX,embymv.tk
 DOMAIN-SUFFIX,embymv.me
 
-# misakaf
-DOMAIN-SUFFIX,misakaf.org
-
 # orange
-DOMAIN-SUFFIX,embytv.cf
+DOMAIN-SUFFIX,otv.icu
 
-# 卷毛鼠
+# jms
 DOMAIN-SUFFIX,jmsooo.com
 
 # bgk
@@ -27,9 +27,6 @@ DOMAIN-SUFFIX,emby.ml
 
 # misty
 DOMAIN-SUFFIX,misty.ltd
-
-# 水母
-DOMAIN-SUFFIX,amazing910.top
 
 # 剧狗
 DOMAIN-SUFFIX,ju.dog
@@ -66,12 +63,10 @@ DOMAIN-SUFFIX,nijigem.by
 
 # HXD
 DOMAIN-SUFFIX,bili.rip
+DOMAIN-SUFFIX,nvidia.rip
 
 # NMEmby
 DOMAIN-SUFFIX,goodisp.org
-
-# tank
-DOMAIN-SUFFIX,tank88.top
 
 # atom
 DOMAIN,emby.atomjaylee.top
