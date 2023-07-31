@@ -1,5 +1,15 @@
+# jms
+DOMAIN-SUFFIX,jmsooo.com
+
+# zdz
+DOMAIN-SUFFIX,emby.wtf
+
+# bgk
+DOMAIN-SUFFIX,emby.pro
+DOMAIN-SUFFIX,bgka.me
+
 # misakaf
-DOMAIN,emby.misakaf.org
+DOMAIN-SUFFIX,emby.misakaf.org
 
 # peach
 DOMAIN-SUFFIX,embymv.tk
@@ -8,19 +18,15 @@ DOMAIN-SUFFIX,embymv.me
 # orange
 DOMAIN-SUFFIX,otv.icu
 
-# jms
-DOMAIN-SUFFIX,jmsooo.com
-
-# bgk
-DOMAIN-SUFFIX,emby.pro
-DOMAIN-SUFFIX,bgka.me
-
-# zdz
-DOMAIN-SUFFIX,emby.wtf
-
 # polo
 DOMAIN-SUFFIX,poloemby.xyz
 DOMAIN-SUFFIX,polodns.xyz
+
+# 水母
+DOMAIN-SUFFIX,amazing910.top
+
+# tank
+DOMAIN-SUFFIX,tank88.top
 
 # 垃圾影音
 DOMAIN-SUFFIX,emby.ml
@@ -30,6 +36,9 @@ DOMAIN-SUFFIX,misty.ltd
 
 # 剧狗
 DOMAIN-SUFFIX,ju.dog
+
+# 莫高雷
+DOMAIN-SUFFIX,mgl.gay
 
 # magic cloud
 DOMAIN-SUFFIX,freetz.top
@@ -43,7 +52,7 @@ DOMAIN-SUFFIX,emby.eu.org
 # paul
 DOMAIN-SUFFIX,emby.imetyou.top
 
-#captionZ
+# captionZ
 DOMAIN-SUFFIX,wiri.tk
 
 # TreeDiagram
@@ -51,9 +60,6 @@ DOMAIN-SUFFIX,123456.al
 
 # 梁山客栈
 DOMAIN-SUFFIX,shuipo.lol
-
-# 莫高雷
-DOMAIN-SUFFIX,mgl.gay
 
 # 纸片人
 DOMAIN-SUFFIX,embyplus.org
