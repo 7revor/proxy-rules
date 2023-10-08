@@ -10,7 +10,6 @@ DOMAIN-SUFFIX,kikyo.icu
 
 # vps
 DOMAIN-SUFFIX,linode.com
-DOMAIN-SUFFIX,hetzner.com
-DOMAIN-SUFFIX,hetzner.cloud
+DOMAIN-KEYWORD,hetzner
+DOMAIN-KEYWORD,netcup
 DOMAIN-SUFFIX,customercontrolpanel.de
-DOMAIN-SUFFIX,netcup.eu
