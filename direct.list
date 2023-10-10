@@ -8,9 +8,3 @@ DOMAIN,ipv4.ddnspod.com
 DOMAIN-SUFFIX,7revor.org
 DOMAIN-SUFFIX,kikyo.icu
 DOMAIN-SUFFIX,kod.7revor.com
-
-# vps
-DOMAIN-SUFFIX,linode.com
-DOMAIN-KEYWORD,hetzner
-DOMAIN-KEYWORD,netcup
-DOMAIN-SUFFIX,customercontrolpanel.de
