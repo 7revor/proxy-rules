@@ -66,3 +66,6 @@ DOMAIN-SUFFIX,goodisp.org
 DOMAIN,emby.atomjaylee.top
 # 7revor
 DOMAIN,emby.7revor.com
+
+# tmdb
+DOMAIN-SUFFIX,themoviedb.org
