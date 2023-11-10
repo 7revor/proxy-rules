@@ -64,6 +64,3 @@ DOMAIN-SUFFIX,goodisp.org
 
 # atom
 DOMAIN,emby.atomjaylee.top
-
-# tmdb
-DOMAIN-SUFFIX,themoviedb.org
