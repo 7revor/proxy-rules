@@ -13,3 +13,6 @@ DOMAIN,audiences.me
 
 # fanart
 DOMAIN,assets.fanart.tv
+
+# open subtitle
+# DOMAIN-SUFFIX,opensubtitles.org
