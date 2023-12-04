@@ -23,9 +23,6 @@ DOMAIN-SUFFIX,polodns.xyz
 # 垃圾影音
 DOMAIN-SUFFIX,emby.ml
 
-# misty
-DOMAIN-SUFFIX,misty.ltd
-
 # 剧狗
 DOMAIN-SUFFIX,ju.dog
 
@@ -58,9 +55,6 @@ DOMAIN-SUFFIX,nijigem.by
 
 # HXD
 DOMAIN-SUFFIX,bili.rip
-
-# NMEmby
-DOMAIN-SUFFIX,goodisp.org
 
 # atom
 DOMAIN,emby.atomjaylee.top
