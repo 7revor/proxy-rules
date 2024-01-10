@@ -10,3 +10,22 @@ DOMAIN,audiences.me
 DOMAIN,open.cd
 # frds
 DOMAIN,pt.keepfrds.com
+
+# fanart
+DOMAIN,assets.fanart.tv
+
+# open subtitle
+# DOMAIN-SUFFIX,opensubtitles.org
+
+# hetzner
+DOMAIN-SUFFIX,hetzner.com
+DOMAIN-SUFFIX,hetzner.cloud
+
+# netcup
+DOMAIN-SUFFIX,netcup.de
+DOMAIN-SUFFIX,netcup.eu
+DOMAIN-SUFFIX,customercontrolpanel.de
+DOMAIN-SUFFIX,servercontrolpanel.de
+
+# Ultra Mobile Wi-Fi Calling
+DOMAIN-SUFFIX,3gppnetwork.org
