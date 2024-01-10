@@ -20,6 +20,7 @@ DOMAIN,assets.fanart.tv
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
 DOMAIN-SUFFIX,hetzner.cloud
+DOMAIN-SUFFIX,hetzner.company
 
 # netcup
 DOMAIN-SUFFIX,netcup.de
