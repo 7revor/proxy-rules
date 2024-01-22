@@ -15,7 +15,10 @@ DOMAIN,pt.keepfrds.com
 DOMAIN,assets.fanart.tv
 
 # open subtitle
-# DOMAIN-SUFFIX,opensubtitles.org
+DOMAIN-SUFFIX,opensubtitles.org
+
+# loc
+DOMAIN-SUFFIX,hostloc.com
 
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
