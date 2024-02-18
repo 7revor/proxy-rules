@@ -31,6 +31,11 @@ DOMAIN-SUFFIX,netcup.eu
 DOMAIN-SUFFIX,customercontrolpanel.de
 DOMAIN-SUFFIX,servercontrolpanel.de
 
+# wise
+DOMAIN-SUFFIX,wise.com
+# kraken
+DOMAIN-SUFFIX,kraken.com
+
 # bwg
 DOMAIN-SUFFIX,bandwagonhost.com
 DOMAIN,kiwivm.64clouds.com
