@@ -20,15 +20,6 @@ DOMAIN-SUFFIX,otv.icu
 DOMAIN-SUFFIX,poloemby.xyz
 DOMAIN-SUFFIX,polodns.xyz
 
-# 垃圾影音
-DOMAIN-SUFFIX,emby.ml
-
-# 剧狗
-DOMAIN-SUFFIX,ju.dog
-
-# 莫高雷
-DOMAIN-SUFFIX,mgl.gay
-
 # magic cloud
 DOMAIN-SUFFIX,freetz.top
 
@@ -43,9 +34,6 @@ DOMAIN-SUFFIX,emby.imetyou.top
 
 # TreeDiagram
 DOMAIN-SUFFIX,123456.al
-
-# 梁山客栈
-DOMAIN-SUFFIX,shuipo.lol
 
 # 纸片人
 DOMAIN-SUFFIX,embyplus.org
