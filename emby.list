@@ -1,13 +1,12 @@
 # jms bgk
 DOMAIN-SUFFIX,jmsooo.com
 DOMAIN-SUFFIX,emby.pro
-DOMAIN-SUFFIX,bgka.me
 
 # zdz
 DOMAIN-SUFFIX,emby.wtf
 
 # misakaf
-DOMAIN,emby.misakaf.org
+DOMAIN-SUFFIX,misakaf.org
 
 # peach
 DOMAIN-SUFFIX,embymv.tk
@@ -19,18 +18,6 @@ DOMAIN-SUFFIX,otv.icu
 # polo
 DOMAIN-SUFFIX,poloemby.xyz
 DOMAIN-SUFFIX,polodns.xyz
-
-# magic cloud
-DOMAIN-SUFFIX,freetz.top
-
-# 佛系
-DOMAIN-SUFFIX,4545.cf
-
-# 星光
-DOMAIN-SUFFIX,emby.eu.org
-
-# paul
-DOMAIN-SUFFIX,emby.imetyou.top
 
 # TreeDiagram
 DOMAIN-SUFFIX,123456.al
