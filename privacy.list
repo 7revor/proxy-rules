@@ -17,9 +17,6 @@ DOMAIN,assets.fanart.tv
 # open subtitle
 DOMAIN-SUFFIX,opensubtitles.org
 
-# loc
-DOMAIN-SUFFIX,hostloc.com
-
 # hetzner
 DOMAIN-SUFFIX,hetzner.com
 DOMAIN-SUFFIX,hetzner.cloud
@@ -30,6 +27,10 @@ DOMAIN-SUFFIX,netcup.de
 DOMAIN-SUFFIX,netcup.eu
 DOMAIN-SUFFIX,customercontrolpanel.de
 DOMAIN-SUFFIX,servercontrolpanel.de
+
+# 7revor
+DOMAIN,sg.7revor.com
+
 
 # wise
 DOMAIN-SUFFIX,wise.com
