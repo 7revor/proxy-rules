@@ -2,8 +2,27 @@
 DOMAIN-SUFFIX,ultramobile.com
 
 # ddns
-DOMAIN,ipv4.ddnspod.com
+DOMAIN-SUFFIX,ipv4.ddnspod.com
 
 DOMAIN-SUFFIX,7revor.com
+
+# hdsky
+DOMAIN-SUFFIX,hdsky.me
+# m-team
+DOMAIN-SUFFIX,m-team.io
+# CHD
+DOMAIN-SUFFIX,chdbits.xyz
+# HH
+DOMAIN-SUFFIX,hhanclub.top
+DOMAIN-SUFFIX,hhan.club
+# ad
+DOMAIN-SUFFIX,audiences.me
+DOMAIN-SUFFIX,cinefiles.info
+# opencd
+DOMAIN-SUFFIX,open.cd
+# frds
+DOMAIN-SUFFIX,keepfrds.com
+# DISCFAN
+DOMAIN-SUFFIX,discfan.net
 
 
