@@ -1,6 +1,10 @@
 # CHD，国内需要代理访问
 DOMAIN,chdbits.co
 
+# sg,jp
+DOMAIN-SUFFIX,sg.7revor.com
+DOMAIN-SUFFIX,jp.7revor.com
+
 # fanart
 DOMAIN,assets.fanart.tv
 
@@ -17,10 +21,6 @@ DOMAIN-SUFFIX,netcup.de
 DOMAIN-SUFFIX,netcup.eu
 DOMAIN-SUFFIX,customercontrolpanel.de
 DOMAIN-SUFFIX,servercontrolpanel.de
-
-# 7revor
-DOMAIN,sg.7revor.com
-
 
 # wise
 DOMAIN-SUFFIX,wise.com
