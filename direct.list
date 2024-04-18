@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,7revor.com
 DOMAIN-SUFFIX,hdsky.me
 # m-team
 DOMAIN-SUFFIX,m-team.io
-# CHD
+# CHD tracker
 DOMAIN-SUFFIX,chdbits.xyz
 # HH
 DOMAIN-SUFFIX,hhanclub.top
@@ -24,5 +24,7 @@ DOMAIN-SUFFIX,open.cd
 DOMAIN-SUFFIX,keepfrds.com
 # DISCFAN
 DOMAIN-SUFFIX,discfan.net
+# SSD
+DOMAIN-SUFFIX,springsunday.net
 
 
