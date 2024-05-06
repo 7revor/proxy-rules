@@ -1,3 +1,6 @@
+# jsdelivr(炸)
+DOMAIN-SUFFIX,jsdelivr.net
+
 # CHD，国内需要代理访问
 DOMAIN,chdbits.co
 
