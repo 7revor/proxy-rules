@@ -1,0 +1,9 @@
+#!name= 宝宝巴士
+#!desc= 跳过强制更新
+
+[Rule]
+# 宝宝巴士强制更新拦截
+URL-REGEX,^https:\/\/app-api\.babybus\.com\/v4\/get_force_update,REJECT
+
+[MITM]
+hostname = %APPEND% app-api.babybus.com
