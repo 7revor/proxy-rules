@@ -1,38 +1,12 @@
 # jsdelivr(炸)
 DOMAIN-SUFFIX,jsdelivr.net
 
-# CHD，国内需要代理访问
-DOMAIN,chdbits.co
-
 # sg,jp
 DOMAIN-SUFFIX,sg.7revor.com
-DOMAIN-SUFFIX,jp.7revor.com
+DOMAIN-SUFFIX,de.7revor.com
 
 # fanart
 DOMAIN,assets.fanart.tv
 
 # open subtitle
 DOMAIN-SUFFIX,opensubtitles.org
-
-# hetzner
-DOMAIN-SUFFIX,hetzner.com
-DOMAIN-SUFFIX,hetzner.cloud
-DOMAIN-SUFFIX,hetzner.company
-
-# netcup
-DOMAIN-SUFFIX,netcup.de
-DOMAIN-SUFFIX,netcup.eu
-DOMAIN-SUFFIX,customercontrolpanel.de
-DOMAIN-SUFFIX,servercontrolpanel.de
-
-# wise
-DOMAIN-SUFFIX,wise.com
-# kraken
-DOMAIN-SUFFIX,kraken.com
-
-# bwg
-DOMAIN-SUFFIX,bandwagonhost.com
-DOMAIN,kiwivm.64clouds.com
-
-# Ultra Mobile Wi-Fi Calling
-DOMAIN-SUFFIX,3gppnetwork.org
