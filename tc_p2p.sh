@@ -124,7 +124,7 @@ main_loop() {
     # 判断是否处于冷却时间
     if [ "$COOLDOWN" -gt 0 ]; then
       # 减少冷却时间
-      COOLDOWN=$((COOLDOWN - SLEEP_TIME))
+      COOLDOWN=$((COOLDOWN - TIME_INTERVAL))
       if [ "$COOLDOWN" -lt 0 ]; then
         COOLDOWN=0
       fi
