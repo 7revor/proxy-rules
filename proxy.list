@@ -2,7 +2,7 @@
 DOMAIN-SUFFIX,jsdelivr.net
 
 # fanart
-DOMAIN,assets.fanart.tv
+DOMAIN-SUFFIX,fanart.tv
 
 # open subtitle
 DOMAIN-SUFFIX,opensubtitles.org
