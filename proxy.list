@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,opensubtitles.org
 #ssl
 DOMAIN-SUFFIX,letsencrypt.org
 
+#cursor
+DOMAIN-SUFFIX,cursor.sh
+
 # pt
 DOMAIN, chdbits.co
 DOMAIN, hhanclub.top
