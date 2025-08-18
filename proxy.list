@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,letsencrypt.org
 
 #cursor
 DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
 
 # pt
 DOMAIN, chdbits.co
