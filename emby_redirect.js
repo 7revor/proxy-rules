@@ -1,7 +1,6 @@
 const isTV = $environment.system === "tvOS";
-if ($argument && $network.wifi || isTV) {
+if (($argument && $network.wifi) || isTV) {
   const args = $argument.split(",");
-  console.log("length:"+args.length)
   if (args.length === 3) {
     const [ssid, source, target] = args;
     if ($network.wifi.ssid === ssid || isTV) {
