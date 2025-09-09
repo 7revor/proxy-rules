@@ -1,16 +1,7 @@
-const isTV = $environment.system === "tvOS";
-if (($argument && $network.wifi) || isTV) {
-  const args = $argument.split(",");
-  if (args.length === 3) {
-    const [ssid, source, target] = args;
-    if ($network.wifi.ssid === ssid || isTV) {
-      $done({ url: $request.url.replace(source, target) });
-    } else {
-      $done({});
-    }
-  } else {
-    $done({});
-  }
-} else {
-  $done({});
-}
+if (!$argument || !$network.wifi) $done({});
+const args = $argument.split(",");
+if (args.length !== 3) $done({});
+const [ssid, source, target] = args;
+const isInternal = $network.wifi.ssid ? $network.wifi.ssid === ssid : $environment.system === "tvOS";
+if (!isInternal) $done({});
+$done({ url: $request.url.replace(source, target) });
