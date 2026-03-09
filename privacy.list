@@ -10,10 +10,6 @@ DOMAIN-SUFFIX,opensubtitles.org
 #ssl
 DOMAIN-SUFFIX,letsencrypt.org
 
-#cursor
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,cursorapi.com
-
 # pt
 DOMAIN,chdbits.co
 DOMAIN,hhanclub.top
@@ -30,4 +26,8 @@ DOMAIN,pterclub.net
 
 # notion
 DOMAIN-KEYWORD,notion
+
+# stripe
+DOMAIN-KEYWORD,stripe
+
 

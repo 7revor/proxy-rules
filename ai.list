@@ -1,0 +1,14 @@
+# claude
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
+PROCESS-NAME,Claude*
+
+# openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,openai
+PROCESS-NAME,ChatGPT*
+
+# cursor
+PROCESS-NAME,Cursor*
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
