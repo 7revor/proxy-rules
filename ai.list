@@ -4,6 +4,8 @@ DOMAIN-KEYWORD,anthropic
 PROCESS-NAME,Claude*
 
 # openai
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,openai
 PROCESS-NAME,ChatGPT*
