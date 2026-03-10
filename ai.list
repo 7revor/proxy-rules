@@ -14,6 +14,3 @@ PROCESS-NAME,ChatGPT*
 PROCESS-NAME,Cursor*
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
-
-# gemini
-DOMAIN-KEYWORD,gemini
