@@ -1,0 +1,303 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+
+proxy-providers:
+  subscription:
+    type: http
+    url: "URL"
+    interval: 86400
+    path: ./proxies/subscription.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+proxy-groups:
+  - name: "🚀 科学上网"
+    type: select
+    proxies:
+      - "🇭🇰 香港节点"
+      - "🇺🇲 美国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "⚙️ 手动选择"
+
+  - name: "🔒 隐私服务"
+    type: select
+    proxies:
+      - "🇭🇰 香港节点"
+      - "🇺🇲 美国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "⚙️ 手动选择"
+
+  - name: "⚠️ 风控服务"
+    type: select
+    proxies:
+      - "🇭🇰 香港节点"
+      - "🇺🇲 美国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "⚙️ 手动选择"
+
+  - name: "🖥️ 微软服务"
+    type: select
+    proxies:
+      - DIRECT
+      - "🚀 科学上网"
+      - "🔒 隐私服务"
+
+  - name: "🎬 海外媒体"
+    type: select
+    proxies:
+      - "🇭🇰 香港节点"
+      - "🇺🇲 美国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "⚙️ 手动选择"
+
+  - name: "🛡️ 广告拦截"
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: "🎯 国内网络"
+    type: select
+    proxies:
+      - DIRECT
+      - "🚀 科学上网"
+
+  - name: "🐟 其他网站"
+    type: select
+    proxies:
+      - "🚀 科学上网"
+      - DIRECT
+
+  - name: "🇭🇰 香港节点"
+    type: select
+    use:
+      - subscription
+    filter: "(?i)港|HK|Hong Kong"
+
+  - name: "🇺🇲 美国节点"
+    type: select
+    use:
+      - subscription
+    filter: "(?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States"
+
+  - name: "🇯🇵 日本节点"
+    type: select
+    use:
+      - subscription
+    filter: "(?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan"
+
+  - name: "🇸🇬 新加坡节点"
+    type: select
+    use:
+      - subscription
+    filter: "(?i)新加坡|SG|Singapore"
+
+  - name: "⚙️ 手动选择"
+    type: select
+    use:
+      - subscription
+
+rule-providers:
+  lan:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list"
+    path: ./rules/lan.list
+    interval: 259200
+
+  block:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/7revor/proxy-rules/main/block.list"
+    path: ./rules/block.list
+    interval: 259200
+
+  ai:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/7revor/proxy-rules/main/ai.list"
+    path: ./rules/ai.list
+    interval: 259200
+
+  pt:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/7revor/proxy-rules/main/pt.list"
+    path: ./rules/pt.list
+    interval: 259200
+
+  paypal:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+    path: ./rules/paypal.list
+    interval: 259200
+
+  direct:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list"
+    path: ./rules/direct.list
+    interval: 259200
+
+  steam-cn:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SteamCN/SteamCN.list"
+    path: ./rules/steam-cn.list
+    interval: 259200
+
+  playstation:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PlayStation/PlayStation.list"
+    path: ./rules/playstation.list
+    interval: 259200
+
+  game-download-cn:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/GameDownloadCN/GameDownloadCN.list"
+    path: ./rules/game-download-cn.list
+    interval: 259200
+
+  privacy:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/7revor/proxy-rules/main/privacy.list"
+    path: ./rules/privacy.list
+    interval: 259200
+
+  tmdb:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tmdb/Tmdb.list"
+    path: ./rules/tmdb.list
+    interval: 259200
+
+  docker:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Docker/Docker.list"
+    path: ./rules/docker.list
+    interval: 259200
+
+  github:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GitHub/GitHub.list"
+    path: ./rules/github.list
+    interval: 259200
+
+  telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list"
+    path: ./rules/telegram.list
+    interval: 259200
+
+  media:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/7revor/proxy-rules/main/media.list"
+    path: ./rules/media.list
+    interval: 259200
+
+  youtube:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list"
+    path: ./rules/youtube.list
+    interval: 259200
+
+  netflix:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+    path: ./rules/netflix.list
+    interval: 259200
+
+  microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list"
+    path: ./rules/microsoft.list
+    interval: 259200
+
+  proxy-list:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list"
+    path: ./rules/proxy.list
+    interval: 259200
+
+  china:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All_No_Resolve.list"
+    path: ./rules/china.list
+    interval: 259200
+
+  direct-ip:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/7revor/proxy-rules/main/direct_ip.list"
+    path: ./rules/direct-ip.list
+    interval: 259200
+
+rules:
+  - RULE-SET,lan,🎯 国内网络
+  - RULE-SET,block,🛡️ 广告拦截
+  - RULE-SET,ai,⚠️ 风控服务
+  - RULE-SET,pt,⚠️ 风控服务
+  - RULE-SET,paypal,⚠️ 风控服务
+  - RULE-SET,direct,🎯 国内网络
+  - RULE-SET,steam-cn,🎯 国内网络
+  - RULE-SET,playstation,🎯 国内网络
+  - RULE-SET,game-download-cn,🎯 国内网络
+  - RULE-SET,privacy,🔒 隐私服务
+  - RULE-SET,tmdb,🔒 隐私服务
+  - RULE-SET,docker,🔒 隐私服务
+  - RULE-SET,github,🔒 隐私服务
+  - RULE-SET,telegram,🚀 科学上网
+  - RULE-SET,media,🎬 海外媒体
+  - RULE-SET,youtube,🎬 海外媒体
+  - RULE-SET,netflix,🎬 海外媒体
+  - RULE-SET,microsoft,🖥️ 微软服务
+  - RULE-SET,proxy-list,🚀 科学上网
+  - RULE-SET,china,🎯 国内网络
+  - GEOIP,CN,🎯 国内网络
+  - RULE-SET,direct-ip,🎯 国内网络
+  - DST-PORT,22,🎯 国内网络
+  - MATCH,🐟 其他网站
