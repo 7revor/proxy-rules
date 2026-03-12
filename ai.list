@@ -29,3 +29,4 @@ PROCESS-NAME,Cursor*
 
 # others
 DOMAIN-SUFFIX,intercom.io
+DOMAIN-KEYWORD,stripe
