@@ -2,3 +2,15 @@
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,jsdelivr.com
 
+# fanart
+DOMAIN-SUFFIX,fanart.tv
+
+# open subtitle
+DOMAIN-SUFFIX,opensubtitles.org
+
+#ssl
+DOMAIN-SUFFIX,letsencrypt.org
+
+# notion
+DOMAIN-KEYWORD,notion
+
