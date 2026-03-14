@@ -31,6 +31,7 @@ PROCESS-NAME,Cursor*
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-KEYWORD,stripe
 DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,siftscience.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-KEYWORD,datadog
