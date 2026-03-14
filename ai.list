@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,sora.com 
+DOMAIN-SUFFIX,sora.com
 PROCESS-NAME,ChatGPT*
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,openai
@@ -31,7 +31,6 @@ PROCESS-NAME,Cursor*
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-KEYWORD,stripe
 DOMAIN-SUFFIX,intercom.io
-
 DOMAIN-SUFFIX,siftscience.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-KEYWORD,datadog
