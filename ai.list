@@ -27,7 +27,6 @@ DOMAIN-SUFFIX,cursor-cdn.com
 
 # colipot
 DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-KEYWORD,copilot
 
 # others
 DOMAIN-SUFFIX,livekit.cloud
