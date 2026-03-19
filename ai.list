@@ -16,9 +16,6 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sora.com
-PROCESS-NAME,ChatGPT*
-PROCESS-NAME,Codex*
-PROCESS-NAME,codex*
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,openai
 
@@ -27,7 +24,6 @@ DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
-PROCESS-NAME,Cursor*
 
 # others
 DOMAIN-SUFFIX,livekit.cloud
