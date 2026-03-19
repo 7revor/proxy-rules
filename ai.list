@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sora.com
 PROCESS-NAME,ChatGPT*
+PROCESS-NAME,Codex*
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,openai
 
