@@ -4,9 +4,10 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudemcpclient.com
-PROCESS-NAME,Claude*
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
+PROCESS-NAME,Claude*
+PROCESS-NAME,claude*
 
 # openai
 DOMAIN-SUFFIX,chat.com
