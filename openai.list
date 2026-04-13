@@ -1,0 +1,19 @@
+# openai
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,openai
+
+# others
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-KEYWORD,stripe
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,siftscience.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-KEYWORD,datadog
