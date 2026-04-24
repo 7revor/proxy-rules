@@ -1,0 +1,19 @@
+# claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+PROCESS-NAME,Claude*
+PROCESS-NAME,claude*
+
+# others
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-KEYWORD,stripe
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,siftscience.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-KEYWORD,datadog
