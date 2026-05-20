@@ -1,3 +1,8 @@
 # BYBIT
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybit.eu
+
+# N26
+DOMAIN-SUFFIX,tech26.de
+DOMAIN-SUFFIX,number26.de
+DOMAIN-SUFFIX,n26.com
