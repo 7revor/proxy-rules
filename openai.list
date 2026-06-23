@@ -11,9 +11,9 @@ DOMAIN-KEYWORD,openai
 
 # others
 DOMAIN-SUFFIX,livekit.cloud
-DOMAIN-KEYWORD,stripe
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,siftscience.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,usefathom.com
 DOMAIN-KEYWORD,datadog
