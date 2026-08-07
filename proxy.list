@@ -2,23 +2,7 @@
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,jsdelivr.com
 
-#TMDB
-DOMAIN-SUFFIX,themoviedb.org
-DOMAIN-SUFFIX,tmdb.org
-
-# fanart
-DOMAIN-SUFFIX,fanart.tv
-
-# open subtitle
-DOMAIN-SUFFIX,opensubtitles.org
-
-#ssl
-DOMAIN-SUFFIX,letsencrypt.org
-
 # notion
 DOMAIN-KEYWORD,notion
 
-# api
-DOMAIN,vision.googleapis.com
-DOMAIN,translation.googleapis.com
 

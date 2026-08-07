@@ -1,0 +1,28 @@
+#TMDB
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
+
+# fanart
+DOMAIN-SUFFIX,fanart.tv
+
+# open subtitle
+DOMAIN-SUFFIX,opensubtitles.org
+
+#ssl
+DOMAIN-SUFFIX,letsencrypt.org
+
+# api
+DOMAIN,vision.googleapis.com
+DOMAIN,translation.googleapis.com
+
+# docker
+DOMAIN,d1q6f0aelx0por.cloudfront.net
+DOMAIN,d2wy8f7a9ursnm.cloudfront.net
+DOMAIN,d36jcksde1wxzq.cloudfront.net
+DOMAIN-SUFFIX,compose-spec.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerhub.com
+DOMAIN-SUFFIX,dockerstatic.com
+DOMAIN,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
+DOMAIN,docker-pinata-support.s3.amazonaws.com
