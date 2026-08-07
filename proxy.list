@@ -14,3 +14,7 @@ DOMAIN-SUFFIX,letsencrypt.org
 # notion
 DOMAIN-KEYWORD,notion
 
+# api
+DOMAIN,vision.googleapis.com
+DOMAIN,translation.googleapis.com
+
