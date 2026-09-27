@@ -40,3 +40,7 @@ DOMAIN-SUFFIX,siftscience.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,usefathom.com
 DOMAIN-KEYWORD,datadog
+
+
+# muse
+DOMAIN-SUFFIX,muse.ai
