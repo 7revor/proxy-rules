@@ -32,6 +32,12 @@ DOMAIN-SUFFIX,cursor-cdn.com
 # colipot
 DOMAIN-SUFFIX,githubcopilot.com
 
+#xai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,x.ai
+
 # others
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,intercom.io
